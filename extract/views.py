@@ -16,9 +16,10 @@ def government_name(gev_code):
         '01' : "Cairo",
         "02" : "Alex",
         "21" : "Giza",
-        "12" : "asdas",
+        "11" : "Domyat",
+        "12" : "Daqhlia",
         "88" : "Out of Egypt",
-    }
+        }
     return gev[gev_code] 
 
 def valid_national_id(id):
